@@ -5,3 +5,4 @@
 - fs.lstat/fs.lstatSync for symbolic link
 - fs.watchFile watch file changes
 - fs.watch has less support across platforms but faster and more reliable
+a
