@@ -1,0 +1,7 @@
+- fs.promises, promise base functions for fs library
+- check file permissions and accces, not use fs.exists (deprecated), use fs.access() instead
+- use fs.chmode to change access permissions of a file https://nodejs.org/api/fs.html#fschmodpath-mode-callback
+- fs.stat/fs.statSync returns file metadata
+- fs.lstat/fs.lstatSync for symbolic link
+- fs.watchFile watch file changes
+- fs.watch has less support across platforms but faster and more reliable

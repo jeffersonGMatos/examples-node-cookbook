@@ -1,0 +1,6 @@
+- TCP stands for Transmission Control Protocol. Provices a standart that allows devices to comunicate over a network
+- net module provides async API for creating stream-based TCP server and client
+- UDP stands for User Datagram Protocol is a connectionless protocol, does not requires a connection before sending data
+  - does not guarantee delivery
+  - faster but less reliable
+  - tipically used for streaming, calling or gamming

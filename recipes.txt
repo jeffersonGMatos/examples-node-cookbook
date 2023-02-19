@@ -1,0 +1,17 @@
+1 - Using NVM to manage Node instalation and versions
+    nvm install [node version] [--lts]
+    nvm use [node versoin] "to switch between versions"
+    REPL to run v8 from terminal use "node" command
+2 - New javascript syntax
+    nullish coalescing operator (??)
+    ex: (0 ?? "hello world") return 0
+    ex: (null ? "Hello World") returns "Hello World"
+3 - STDOUT, STDIN STDERR - User terminal to listen to inupts, write outputs and logs errors
+4 - path module
+    - path.join, write navigation throw directories
+    - path.cwd function get the working direrctoru of system
+5 - Proccess.argv
+    - Array containing the command line arguments
+    - first element is the execPath of node
+    - second argumen is the file path of js file being executed
+    - other arguments are arguments passed in command line

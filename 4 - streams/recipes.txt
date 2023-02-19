@@ -1,0 +1,5 @@
+Streams types are 
+  - readable stream
+  - writable stream
+  - duplex stream
+  - transform streams, a type of duplex that transform data input and outputs)
