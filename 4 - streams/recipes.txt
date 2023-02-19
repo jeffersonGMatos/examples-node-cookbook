@@ -3,3 +3,4 @@ Streams types are
   - writable stream
   - duplex stream
   - transform streams, a type of duplex that transform data input and outputs)
+-- typically we interact with stream core module via higher levels API's like fs.createWriteStream
